@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .tb1 {
+            width: 500px;
+        }
+
+        .tb1 h1 {
+            background: coral;
+            color: white;
+        }
+        .trai{
+            float: right;
+        }
+        .tb2{
+            color: coral;
+        }
+
+    </style>
+</head>
+<body>
+<table class="tb1">
+    <tr>
+    <th colspan="2"><h1>Sở thích của bạn</h1></th>
+    </tr>
+    <tr>
+        <td class="trai">Họ và tên</td>
+        <td>
+            <input type="text" name="hoten">
+        </td>
+    </tr>
+    <tr>
+        <td class="trai">Email</td>
+        <td>
+            <input type="email" name="email">
+        </td>
+    </tr>
+    <tr>
+        <td class="trai">Sở thích</td>
+        <td class="tb2">
+            <table>
+                <tr>
+                    <td><input type="radio" name="thethao">Thể Thao</td>
+                    <td><input type="radio" name="amnhac"> Âm Nhạc</td>
+                    <td><input type="radio" name="docsah"> Đọc Sách</td>
+
+                </tr>
+                <tr>
+                    <td><input type="radio" name="luotweb">Lướt Web</td>
+                    <td><input type="radio" name="choigame">Chơi Game</td>
+                    <td><input type="radio" name="dienanh">Điện Ảnh</td>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="dulich">Du Lịch</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>
+        <table>
+            <tr>
+                <td></td>
+                <td>
+                    <button>Gửi Thông Tin</button>
+                </td>
+                <td class="phai"><button>Nhập lại</button>
+                </td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+
+</table>
+
+</body>
+</html>
